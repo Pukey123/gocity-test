@@ -33,7 +33,7 @@ A simple js react app all components can be found in app.js
 
 This has the most logic to determine page sizes / sorting etc
 
-### Improvement / Todo
+## Improvement / Todo
 1. Add Category Filter (JPA interface additional method + front end changes)
 2. Create delete functionality
 3. Create Update functionality (new modal / screen required)
