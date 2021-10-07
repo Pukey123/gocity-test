@@ -3,6 +3,13 @@ Hi Welcome to Go Inventory
 
 Simple app for looking through your products with simple search and ordering functions
 
+# Start up
+To run the application simply build using mvn
+```
+mvn clean install
+```
+Once built use an IDE (Suggest using **Intellij**) or run the .jar through command line
+
 ## Design
 ### Backend
 Using Java to provide light weight in design backend. Mostly utilises items provided by spring libraries.
@@ -32,3 +39,8 @@ This has the most logic to determine page sizes / sorting etc
 3. Create Update functionality (new modal / screen required)
 4. Security - utilise spring security to secure endpoints
 5. Clean up UI structure seperate files per component
+
+### Resources
+- https://spring.io/guides/tutorials/react-and-spring-data-rest/
+- https://github.com/spring-guides/tut-react-and-spring-data-rest/tree/master/basic
+- https://reactjs.org/docs/hello-world.html
