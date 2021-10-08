@@ -109,6 +109,7 @@ class App extends React.Component {
 
 		return (
 		    <>
+		        <h1>Go Inventory</h1>
                 <ProductList products={this.state.products._embedded.products || []} onSortChanged={this.handleSortChanged}/>
                 <select value={this.state.products.page.number} onChange={this.handlePageNumChange} name="pageCount" id="pageCount">
                     {pageCountEles}
