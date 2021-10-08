@@ -33,7 +33,12 @@ A simple js react app all components can be found in app.js
 
 This has the most logic to determine page sizes / sorting etc
 
-### Improvement / Todo
+## Testing
+Currently there are no unit tests. The reason for this on backend is due to simplicity of backend little to test. Potential JPA unit test need to be researched further.
+
+For the front end tests. Better understanding of how to write ReactJs tests is needed.
+
+## Improvement / Todo
 1. Add Category Filter (JPA interface additional method + front end changes)
 2. Create delete functionality
 3. Create Update functionality (new modal / screen required)
